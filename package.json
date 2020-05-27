@@ -1,0 +1,18 @@
+{
+  "name": "simple-keyboard-input-mask-demo",
+  "version": "1.0.0",
+  "description": "Input Mask for simple-keyboard",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "simple-keyboard": "latest",
+    "simple-keyboard-input-mask": "latest"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
