@@ -11,7 +11,12 @@ let keyboard = new Keyboard({
   onModulesLoaded: () => {
     console.log("Module loaded!");
   },
-  inputMask: "(99) 9999-9999"
+  inputMask: {
+    "default": {
+      mask: '+1 (999) 999-9999',
+      regex: /^[0-9]+$/
+    }
+  }
 });
 
 /**
